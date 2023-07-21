@@ -10,9 +10,9 @@
 Este proyecto pretende el desarrollo de una PWA (Progressive Web App), para lograr este objetivo se desarrolla partiendo de un sitio web.  
 Las tecnologias principales para este proyecto son JavaScript, HTML y CSS.  
 El proyecto fue iniciado y es mantenido por el equipo de la División Estudiantil de Mecatronica (DEM) conformada por estudiantes de la Universidad Autonóma de Yucatán.  
-<div align="center;">
-  <img width='300' src="DEM_logo.png">
-</div>
+<p align="center">
+  <img src="DEM_logo.png" />
+</p>
 
 
 ## Contribuir<a name='id2'><a>   
