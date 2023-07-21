@@ -18,7 +18,7 @@ Tu contribucion puede ser escribiendo codigo o ayudando en la documentacion y ot
 - Desde tu cuenta de GitHub haz un fork de este repositorio.  
 - Clona el repositorio desde tu perfil de GitHub.  
 - Crea una rama en el repositorio y desde esta rama realiza tus aportaciones.
-- Una vez que estes satisfecho con tu aportación, modifica el archivo contribuidores.md y agrega tu nombre, **NO BORRES NINGUN NOMBRE**.
+- Una vez que estes satisfecho con tu aportación, modifica el archivo [contribuidores.md](Contribuidores.md) y agrega tu nombre, **NO BORRES NINGUN NOMBRE**.
 - Realiza un commit.
 - Desde tu cuenta de GitHub, realiza un pull request y describe la aportación realizada.
 - Tu contribución sera revisada para poder ser aceptada.  
