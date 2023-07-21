@@ -1,14 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEM App</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>DEM</h1>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script src="script.js" charset="UTF-8"></script>
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Elements/icons/style.css".css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tu Guía Fi 2.0</title>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v17.0"
+      nonce="qop1FIus"
+    ></script>
+
+    <nav>
+      <button class="BtnCambPag" id="1">
+        <i class="icon-noticias"></i><span>Noticias</span>
+      </button>
+      <button class="BtnCambPag" id="2">
+        <i class="icon-map"></i><span>Mapa</span>
+      </button>
+      <button class="BtnCambPag" id="3">
+        <i class="icon-menu"></i><span>Lista</span>
+      </button>
+      <button class="BtnCambPag" id="4">
+        <i class="icon-docs"></i><span>Docs</span>
+      </button>
+      <button class="BtnCambPag" id="5">...<span>Más</span></button>
+    </nav>
+    <div id="PopUp"></div>
+    <main>
+      <div class="carrusel">
+        <div class="pagina" id="pagina_1">
+          <div class="Titulo">
+            <h2><i class="icon-noticias"></i> Noticias</h2>
+          </div>
+          <div class="ContenedorPag">
+            <div id="SinConexion">
+              <div>
+                <img src="Elements/img/SinConexion.svg" alt="" srcset="" />
+                <span
+                  >Conéctate a Internet para ver los <i>feed</i> de noticias de
+                  la Facultad de Ingeniería</span
+                >
+              </div>
+            </div>
+
+            <!--Carrusel de noticias-->
+
+            <div id="carouselExampleIndicators" class="carousel" slide data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <div class="container-carr">
+                    <h2>Facultad de ingeniería UADY</h2>
+                    <div
+                      class="fb-page embed-responsive embed-responsive-16by9"
+                      data-href="https://www.facebook.com/ingenieria.uady.mx"
+                      data-tabs="timeline"
+                      data-width="500"
+                      data-height=""
+                      data-small-header="true"
+                      data-adapt-container-width="true"
+                      data-hide-cover="true"
+                      data-show-facepile="false"
+                    >
+                      <blockquote
+                        cite="https://www.facebook.com/ingenieria.uady.mx"
+                        class="fb-xfbml-parse-ignore"
+                      >
+                        <a href="https://www.facebook.com/ingenieria.uady.mx"
+                          >Facultad de Ingeniería - UADY</a
+                        >
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container-carr">
+                    <h2>Miercoles de formación Integral FIUADY</h2>
+                    <div
+                      class="fb-page embed-responsive embed-responsive-16by9"
+                      data-href="https://www.facebook.com/FiuadyMifi"
+                      data-tabs="timeline"
+                      data-width=""
+                      data-height="500"
+                      data-small-header="true"
+                      data-adapt-container-width="true"
+                      data-hide-cover="true"
+                      data-show-facepile="false"
+                    >
+                      <blockquote
+                        cite="https://www.facebook.com/FiuadyMifi"
+                        class="fb-xfbml-parse-ignore"
+                      >
+                        <a href="https://www.facebook.com/FiuadyMifi"
+                          >Facultad de Ingeniería - UADY</a
+                        >
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item active">
+                  <div class="container-carr">
+                    <h2>División Estudiantil de Mecatrónica</h2>
+                    <div
+                      class="fb-page embed-responsive embed-responsive-16by9"
+                      data-href="https://www.facebook.com/DEM.fbmx"
+                      data-tabs="timeline"
+                      data-width=""
+                      data-height="500"
+                      data-small-header="true"
+                      data-adapt-container-width="true"
+                      data-hide-cover="true"
+                      data-show-facepile="false"
+                    >
+                      <blockquote
+                        cite="https://www.facebook.com/DEM.fbmx"
+                        class="fb-xfbml-parse-ignore"
+                      >
+                        <a href="https://www.facebook.com/DEM.fbmx"
+                          >DEM - UADY</a
+                        >
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <!--Fin de carrusel de noticias-->
+        </div>
+        <div class="pagina" id="pagina_2">
+          <div class="Titulo">
+            <h2><i class="icon-map"></i> Mapa</h2>
+          </div>
+          <img src="Elements/maps/FIUADY_map.svg" alt="" style="width: 100%" />
+        </div>
+        <div class="pagina" id="pagina_3">
+          <div class="Titulo">
+            <h2><i class="icon-menu"></i> Directorio</h2>
+            <button onclick="MostrarBusqueda(event)">
+              <i class="icon-search"></i>
+            </button>
+            <div id="Busqueda" class="Oculto">
+              <input type="text" id="InputFiltro" oninput="Filtrar()" />
+              <button onclick="MostrarBusqueda(event)">
+                <i class="icon-cross"></i>
+              </button>
+            </div>
+          </div>
+          <div class="ContenedorPag" id="ContenedorDirec">
+            <span>Cargando directorio...</span>
+          </div>
+        </div>
+        <div class="pagina" id="pagina_4">
+          <div class="Titulo">
+            <h2><i class="icon-docs"></i> Formatos</h2>
+          </div>
+          <div class="ContenedorPag" id="ContenedorTramites">
+            <span>Cargando documentación...</span>
+          </div>
+        </div>
+        <div class="pagina" id="pagina_5">
+          <div class="Titulo">
+            <h2>Información</h2>
+          </div>
+          <div id="Info">
+            <div>
+              <img src="IMG/AppIlus.svg" alt="" srcset="" />
+              <span>Tu Guía FI 2.0</span>
+              <button>Contacto</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="script.js"></script>
 </html>
