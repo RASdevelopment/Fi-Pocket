@@ -24,6 +24,7 @@
     <title>Tu Guía Fi 2.0</title>
   </head>
   <body>
+    <!-- <img src="Elements/img/Avr.png" alt="" style="position: fixed; height: 100vh; width: 100vw;"> -->
     <div id="fb-root"></div>
     <script
       async
@@ -32,9 +33,11 @@
       src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v17.0"
       nonce="qop1FIus"
     ></script>
-
+    <header>
+      <h1>Nombre</h1>
+    </header>
     <nav>
-      <button class="BtnCambPag" id="1">
+      <button class="BtnCambPag" id="1" style="color: var(--Institucional2);">
         <i class="icon-noticias"></i><span>Noticias</span>
       </button>
       <button class="BtnCambPag" id="2">
@@ -52,10 +55,9 @@
     <main>
       <div class="carrusel">
         <div class="pagina" id="pagina_1">
-          <div class="Titulo">
-            <h2><i class="icon-noticias"></i> Noticias</h2>
-          </div>
-          <div class="ContenedorPag">
+          <!-- <h5><i class="icon-noticias"></i> Noticias</h5> -->
+
+          <div class="ContenedorPag" id="ContenedorNoti">
             <div id="SinConexion">
               <div>
                 <img src="Elements/img/SinConexion.svg" alt="" srcset="" />
@@ -68,7 +70,12 @@
 
             <!--Carrusel de noticias-->
 
-            <div id="carouselExampleIndicators" class="carousel" slide data-bs-ride="carousel">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel"
+              slide
+              data-bs-ride="carousel"
+            >
               <div class="carousel-indicators">
                 <button
                   type="button"
@@ -92,15 +99,62 @@
                 ></button>
               </div>
               <div class="carousel-inner">
+                <div class="carousel-item" id="activated">
+                  <div class="container-carr">
+                    <div
+                      class="fb-page embed-responsive embed-responsive-16by9"
+                      data-href="https://www.facebook.com/DEM.fbmx"
+                      data-tabs="timeline"
+                      data-width=""
+                      data-height="650"
+                      data-small-header="true"
+                      data-adapt-container-width="true"
+                      data-hide-cover="true"
+                      data-show-facepile="false"
+                    >
+                      <blockquote
+                        cite="https://www.facebook.com/DEM.fbmx"
+                        class="fb-xfbml-parse-ignore"
+                      >
+                        <a href="https://www.facebook.com/DEM.fbmx"
+                          >División Estudiantil de Mecatrónica - UADY</a
+                        >
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
                 <div class="carousel-item">
                   <div class="container-carr">
-                    <h2>Facultad de ingeniería UADY</h2>
+                    <div
+                      class="fb-page embed-responsive embed-responsive-16by9"
+                      data-href="https://www.facebook.com/FiuadyMifi"
+                      data-tabs="timeline"
+                      data-width=""
+                      data-height="650"
+                      data-small-header="true"
+                      data-adapt-container-width="true"
+                      data-hide-cover="true"
+                      data-show-facepile="false"
+                    >
+                      <blockquote
+                        cite="https://www.facebook.com/FiuadyMifi"
+                        class="fb-xfbml-parse-ignore"
+                      >
+                        <a href="https://www.facebook.com/FiuadyMifi"
+                          >MIFI - UADY</a
+                        >
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container-carr">
                     <div
                       class="fb-page embed-responsive embed-responsive-16by9"
                       data-href="https://www.facebook.com/ingenieria.uady.mx"
                       data-tabs="timeline"
-                      data-width="500"
-                      data-height=""
+                      data-width=""
+                      data-height="650"
                       data-small-header="true"
                       data-adapt-container-width="true"
                       data-hide-cover="true"
@@ -117,94 +171,20 @@
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <div class="container-carr">
-                    <h2>Miercoles de formación Integral FIUADY</h2>
-                    <div
-                      class="fb-page embed-responsive embed-responsive-16by9"
-                      data-href="https://www.facebook.com/FiuadyMifi"
-                      data-tabs="timeline"
-                      data-width=""
-                      data-height="500"
-                      data-small-header="true"
-                      data-adapt-container-width="true"
-                      data-hide-cover="true"
-                      data-show-facepile="false"
-                    >
-                      <blockquote
-                        cite="https://www.facebook.com/FiuadyMifi"
-                        class="fb-xfbml-parse-ignore"
-                      >
-                        <a href="https://www.facebook.com/FiuadyMifi"
-                          >Facultad de Ingeniería - UADY</a
-                        >
-                      </blockquote>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item active">
-                  <div class="container-carr">
-                    <h2>División Estudiantil de Mecatrónica</h2>
-                    <div
-                      class="fb-page embed-responsive embed-responsive-16by9"
-                      data-href="https://www.facebook.com/DEM.fbmx"
-                      data-tabs="timeline"
-                      data-width=""
-                      data-height="500"
-                      data-small-header="true"
-                      data-adapt-container-width="true"
-                      data-hide-cover="true"
-                      data-show-facepile="false"
-                    >
-                      <blockquote
-                        cite="https://www.facebook.com/DEM.fbmx"
-                        class="fb-xfbml-parse-ignore"
-                      >
-                        <a href="https://www.facebook.com/DEM.fbmx"
-                          >DEM - UADY</a
-                        >
-                      </blockquote>
-                    </div>
-                  </div>
-                </div>
               </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
+            <!--Fin de carrusel de noticias-->
           </div>
-          <!--Fin de carrusel de noticias-->
         </div>
         <div class="pagina" id="pagina_2">
           <div class="Titulo">
-            <h2><i class="icon-map"></i> Mapa</h2>
+            <h5><i class="icon-map"></i> Mapa</h5>
           </div>
-          <img src="Elements/maps/FIUADY_map.svg" alt="" style="width: 100%" />
+          <img src="Elements/maps/MapaVertical.svg" alt="" style="width: 100%" />
         </div>
         <div class="pagina" id="pagina_3">
           <div class="Titulo">
-            <h2><i class="icon-menu"></i> Directorio</h2>
+            <h5><i class="icon-menu"></i> Directorio</h5>
             <button onclick="MostrarBusqueda(event)">
               <i class="icon-search"></i>
             </button>
@@ -221,7 +201,7 @@
         </div>
         <div class="pagina" id="pagina_4">
           <div class="Titulo">
-            <h2><i class="icon-docs"></i> Formatos</h2>
+            <h5><i class="icon-docs"></i> Formatos</h5>
           </div>
           <div class="ContenedorPag" id="ContenedorTramites">
             <span>Cargando documentación...</span>
@@ -229,7 +209,7 @@
         </div>
         <div class="pagina" id="pagina_5">
           <div class="Titulo">
-            <h2>Información</h2>
+            <h5>Información</h5>
           </div>
           <div id="Info">
             <div>

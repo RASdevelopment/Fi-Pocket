@@ -93,23 +93,24 @@ function DetectPag() {
     element.style.color = "rgb(163, 163, 163)";
   });
   switch (current) {
-    case 1:
+    case '1':
+      console.log("color cambiado");
       Botones[0].style.color = "var(--Institucional2)";
       break;
 
-    case 2:
+    case '2':
       Botones[1].style.color = "var(--Institucional2)";
       break;
 
-    case 3:
+    case '3':
       Botones[2].style.color = "var(--Institucional2)";
       break;
 
-    case 4:
+    case '4':
       Botones[3].style.color = "var(--Institucional2)";
       break;
 
-    case 5:
+    case '5':
       Botones[4].style.color = "var(--Institucional2)";
       break;
 
@@ -276,3 +277,7 @@ $(".BtnCambPag").click(function (e) {
 
 onclick = "CambiarPag(event,1)";
 style = "color: var(--Institucional2)";
+
+  setTimeout(() => {
+    document.getElementById("activated").classList.add("active");
+  }, 500);
