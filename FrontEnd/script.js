@@ -92,25 +92,24 @@ function DetectPag() {
   Botones.forEach((element) => {
     element.style.color = "rgb(163, 163, 163)";
   });
-  switch (current) {
-    case '1':
-      console.log("color cambiado");
+  switch (parseInt(current)) {
+    case 1:
       Botones[0].style.color = "var(--Institucional2)";
       break;
 
-    case '2':
+    case 2:
       Botones[1].style.color = "var(--Institucional2)";
       break;
 
-    case '3':
+    case 3:
       Botones[2].style.color = "var(--Institucional2)";
       break;
 
-    case '4':
+    case 4:
       Botones[3].style.color = "var(--Institucional2)";
       break;
 
-    case '5':
+    case 5:
       Botones[4].style.color = "var(--Institucional2)";
       break;
 
