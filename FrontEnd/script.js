@@ -92,7 +92,7 @@ function DetectPag() {
   Botones.forEach((element) => {
     element.style.color = "rgb(163, 163, 163)";
   });
-  switch (current) {
+  switch (parseInt(current)) {
     case 1:
       Botones[0].style.color = "var(--Institucional2)";
       break;
@@ -276,3 +276,7 @@ $(".BtnCambPag").click(function (e) {
 
 onclick = "CambiarPag(event,1)";
 style = "color: var(--Institucional2)";
+
+  setTimeout(() => {
+    document.getElementById("activated").classList.add("active");
+  }, 500);
