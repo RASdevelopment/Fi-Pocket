@@ -12,19 +12,23 @@ html {
 
 body {
   font-family: "Montserrat";
-  background-color: rgb(243, 244, 248);
+  background-color: white;
 }
 
 header {
-  background-color: var(--Institucional2);
+  background-color: white;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   gap: 10px;
+  height: 50px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   z-index: 999;
+  border-bottom: 1px solid rgba(235, 235, 235, 1);
+  padding: 0 16px;
 }
 
 header > div > button {
@@ -49,7 +53,7 @@ nav {
   z-index: 999;
   height: 70px;
   /* border-radius: 15px 15px 0 0; */
-  border-top: 3px solid rgba(235, 235, 235, 1);
+  border-top: 1px solid rgba(235, 235, 235, 1);
   /* border: rgba(235,235,235,1); */
 }
 
@@ -96,7 +100,7 @@ nav > button > span {
 
 main {
   float: left;
-  /* margin-top: 105px; */
+  margin-top: 50px;
   margin-bottom: 15px;
   min-height: calc(100vh - 70px);
   width: 100vw;
@@ -105,21 +109,24 @@ main {
   position: relative;
 }
 
+h1 {
+  margin: 0;
+}
+
 .Titulo {
   width: 100%;
   /* background-color: red; */
-  padding: 3% 2%;
-  box-shadow: 0px 1px 5px 1px rgba(235, 235, 235, 1);
+  padding: 1% 0%;
   border-radius: 5px;
   background-color: white;
 }
 
-.Titulo > h2 > i {
+.Titulo > h5 > i {
   /* color: var(--Institucional1); */
   padding: 5px;
 }
 
-h2 {
+h5 {
   text-align: left;
   width: 100%;
   margin: 0;
@@ -139,10 +146,10 @@ h2 {
   flex-direction: column;
   gap: 25px;
   float: left;
-  min-height: 600px;
+  min-height: calc(100vh - 50px - 70px);
   width: 100%;
-  max-width: calc(100vw - 40px);
-  padding: 20px;
+  max-width: calc(100vw - 0px);
+  padding: 10px 15px;
   /* margin-right: 5px; */
   /* width: 195px; */
   text-align: center;
@@ -220,6 +227,10 @@ h2 {
   gap: 5px;
 }
 
+#ContenedorNoti {
+  height: calc(100vh - 14vh);
+}
+
 .ElemLista {
   box-shadow: 0px 1px 5px 1px rgba(235, 235, 235, 1);
   width: 97%;
@@ -245,7 +256,7 @@ h2 {
   justify-content: space-between;
   position: absolute;
   left: calc(200vw + 20px);
-  right: calc(300vw + 25px);
+  right: calc(300vw + 20px);
   /* margin-top: 15px; */
   height: 28px;
   background-color: white;
@@ -275,3 +286,15 @@ h2 {
   width: 100%;
   height: 100%;
 }
+
+#carouselExampleIndicators {
+  height: 100%;
+}
+
+.carousel-indicators > button {
+  background-color: var(--ContrasteDiscreto) !important;
+}
+
+/* .embed-responsive-16by9 > span,  .embed-responsive-16by9 > span > iframe{
+  width: 340px !important;
+} */
