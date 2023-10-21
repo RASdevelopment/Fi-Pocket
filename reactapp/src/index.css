@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Montserrat&family=Raleway:wght@300&display=swap');
+
+:root {
+  --ColorPrincipal1: #0c4dbc;
+  --ColorPrincipal2: #6198e6;
+  --DegIconUI: linear-gradient(to top, #0c4dbc, #6198e6);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +16,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.UI-Icon1 {
+  background: var(--DegIconUI);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 0;
 }

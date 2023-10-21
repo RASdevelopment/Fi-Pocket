@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 45px;
+    margin: 0;
+    padding: 0 10px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+img {
+    max-height: 25px;
+}
