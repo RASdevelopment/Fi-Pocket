@@ -2,16 +2,16 @@ import React from "react";
 import Header from '../components/header.jsx';
 import Navbar from '../components/navbar.jsx';
 
-function Map() {
+function Directory() {
   return (
     <div>
       <Header />
       <div class="content">
-        <h1>Mapa</h1>
+        <h1>Directorio</h1>
       </div>
       <Navbar />
     </div>
   );
 }
 
-export default Map;
+export default Directory;

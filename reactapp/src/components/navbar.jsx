@@ -1,28 +1,38 @@
 import React, { Component } from 'react';
 import './navbar.css';
+// import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
-class Navbar extends Component {
-    render() {
-        return (
-            <nav>
+function Navbar() {
+    return (
+        <nav>
+            <Link to="/">
                 <button>
-                <b class="UI-Icon0">O</b>
+                    <b className={useLocation().pathname === '/' ? 'icon-home UI-Icon1' : 'icon-home UI-Icon0'}></b>
                 </button>
+            </Link>
+            <Link to="/map">
                 <button>
-                <b class="UI-Icon0">O</b>
+                <b className={useLocation().pathname === '/map' ? 'icon-map UI-Icon1' : 'icon-map UI-Icon0'}></b>
                 </button>
+            </Link>
+            <Link to="/directory">
                 <button>
-                <b class="UI-Icon0">O</b>
+                <b className={useLocation().pathname === '/directory' ? 'icon-directory UI-Icon1' : 'icon-directory UI-Icon0'}></b>
                 </button>
+            </Link>
+            <Link to="/archive">
                 <button>
-                <b class="UI-Icon0">O</b>
+                <b className={useLocation().pathname === '/archive' ? 'icon-file UI-Icon1' : 'icon-file UI-Icon0'}></b>
                 </button>
+            </Link>
+            <Link to="/SICEI">
                 <button>
-                <b class="UI-Icon0">O</b>
+                <b className={useLocation().pathname === '/SICEI' ? 'icon-laptop UI-Icon1' : 'icon-laptop UI-Icon0'}></b>
                 </button>
-            </nav>
-        )
-    };
+            </Link>
+        </nav>
+    )
 }
 
 export default Navbar;

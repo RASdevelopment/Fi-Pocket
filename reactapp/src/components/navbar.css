@@ -8,13 +8,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid rgb(208, 208, 208);
+    border-top: 1px solid var(--Divisiones);
 }
 
 button {
     background: none;
     border: none;
     padding: 0;
-    color: gray;
-    font-size: 1.5em;
+    color: var(--Gris-Alt);
+    font-size: 1.2em;
 }

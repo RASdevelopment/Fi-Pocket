@@ -7,7 +7,7 @@ class Header extends Component {
         return (
             <header>
                 <img src={imgLogoHor} alt="Logo de FI Pocket"/>
-                <b class="UI-Icon1">O</b>
+                {/* <b class="UI-Icon1">O</b> */}
             </header>
         )
     };
