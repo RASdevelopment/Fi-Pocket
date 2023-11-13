@@ -10,6 +10,11 @@ import Archive from "./pages/Archive";
 import SICEI from "./pages/SICEI";
 import '../src/index.css';
 import '../src/libs/icons/style.css';
+/* import Docs from "./components/Docs/Docs";
+import Cuatro from "./components/Docs/Archivos/Cuatro";
+import Tres from "./components/Docs/Archivos/Tres";
+import Dos from "./components/Docs/Archivos/Dos";
+import Uno from "./components/Docs/Archivos/Uno"; */
 
 const router = createBrowserRouter([
   {
@@ -31,6 +36,30 @@ const router = createBrowserRouter([
       {
         path: "/archive",
         element: <Archive />,
+        /*children: [
+          {
+            path: "",
+            element: <Docs />,
+            children: [
+              {
+                path: "/uno",
+                element: <Uno />,
+              },
+              {
+                path: "/dos",
+                element: <Dos />,
+              },
+              {
+                path: "/tres",
+                element: <Tres />,
+              },
+              {
+                path: "/cuatro",
+                element: <Cuatro />,
+              },
+            ],
+          },
+        ],*/
       },
       {
         path: "/SICEI",
