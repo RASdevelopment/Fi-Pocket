@@ -25,11 +25,11 @@ function Navbar() {
                 <b className={useLocation().pathname === '/archive' ? 'icon-file UI-Icon1' : 'icon-file UI-Icon0'}></b>
                 </button>
             </Link>
-            <Link to="/SICEI">
+            {/* <Link to="/SICEI">
                 <button>
                 <b className={useLocation().pathname === '/SICEI' ? 'icon-laptop UI-Icon1' : 'icon-laptop UI-Icon0'}></b>
                 </button>
-            </Link>
+            </Link> */}
         </nav>
     )
 }

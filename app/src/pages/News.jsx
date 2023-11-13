@@ -17,8 +17,10 @@ function News() {
         </div>
         <div class="box">
           <h1>Noticias</h1>
-          <h3>Conéctate a Internet para ver los feeds de noticias</h3>
-          <img src={Ill1} alt="Sin Conexión" class="heroIl" />
+          <div class="NoNetElementHide">
+            <h3>Conéctate a Internet para ver los feeds de noticias</h3>
+            <img src={Ill1} alt="Sin Conexión" class="heroIl" />
+          </div>
         </div>
       </div>
       <Navbar />
