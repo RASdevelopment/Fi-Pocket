@@ -2,6 +2,7 @@ import React from "react";
 import Header from '../components/Header/Header';
 import Navbar from '../components/NavBar/Navbar';
 import Ill1 from '../img/ILL1-NoNet.svg';
+import { Saludo, Aleatorio } from "../components/News/Consejo";
 
 function News() {
   return (
@@ -9,11 +10,11 @@ function News() {
       <Header />
       <div class="content">
         <div class="box">
-          <h2>¡Hola!</h2>
+          <Saludo />
           <br />
           {/* <h3>Inicia sesión para acceder a todas las funciones</h3> */}
           <h4>Consejo del día:</h4>
-          <p class="advice">Persiste en el aprendizaje constante y busca oportunidades para aplicar tus conocimientos en proyectos reales</p>
+          <Aleatorio />
         </div>
         <div class="box">
           <h1>Noticias</h1>
