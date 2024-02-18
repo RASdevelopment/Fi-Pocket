@@ -9,11 +9,11 @@ export function Saludo() {
             let saludoHora;
             
             if (hora >= 5 && hora < 12) {
-                saludoHora = "!Hola, Buenos Días!";
+                saludoHora = "¡Hola, buenos días!";
             } else if (hora >= 12 && hora < 18) {
-                saludoHora = "!Hola, Buenas Tardes!";
+                saludoHora = "¡Hola, buenas tardes!";
             } else {
-                saludoHora = "!Hola, Buenas Noches!";
+                saludoHora = "¡Hola, buenas noches!";
             }
 
             mostrar(saludoHora);
@@ -54,7 +54,7 @@ export function Aleatorio() {
         mostrar(parrafos[list]);
     };
     return (
-        <p class="advice">{actual}</p>
+        <p className="advice">{actual}</p>
     );
 }
 
