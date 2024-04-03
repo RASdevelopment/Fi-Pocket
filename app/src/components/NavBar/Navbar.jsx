@@ -22,7 +22,7 @@ function Navbar() {
             </Link>
             <Link to="/archive">
                 <button>
-                <b className={useLocation().pathname === '/archive' ? 'icon-file UI-Icon1' : 'icon-file UI-Icon0'}></b>
+                <b className={useLocation().pathname === '/archive' ? 'icon-archive UI-Icon1' : 'icon-archive UI-Icon0'}></b>
                 </button>
             </Link>
             {/* <Link to="/SICEI">

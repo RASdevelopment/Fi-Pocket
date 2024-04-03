@@ -9,6 +9,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid var(--Divisiones);
+    z-index: 999;
+    background-color: white;
 }
 
 button {

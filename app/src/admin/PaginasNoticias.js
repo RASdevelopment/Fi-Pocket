@@ -1,5 +1,5 @@
 // En este archivo se ponen los nombres y enlaces de las páginas de Facebook que se deseen mostrar en la sección de "Noticias". 
-// La aplicación usará esta lista para la sección.
+// La aplicación usará esta lista para dicha sección.
 
 export const PaginasNoticiasData = [
     {
