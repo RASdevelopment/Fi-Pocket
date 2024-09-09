@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1920" style="enable-background:new 0 0 1920 1920;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#606060;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:url(#SVGID_1_);}
+	.st4{fill:url(#Exterior_1_);}
+	.st5{fill:url(#Nombre_1_);}
+	.st6{fill:url(#Exterior_3_);}
+</style>
+<g id="Fondos" class="st0">
+	<rect id="Fondo_invisible" x="0" y="0" class="st1" width="1920" height="1920"/>
+</g>
+<g id="Ícono">
+	<path id="Marco" class="st2" d="M1386.9,0L533.1,0C239.9,0,0,239.9,0,533.1l0,853.9C0,1680.1,239.9,1920,533.1,1920h853.9
+		c293.2,0,533.1-239.9,533.1-533.1V533.1C1920,239.9,1680.1,0,1386.9,0z"/>
+	<g id="Sombra">
+		
+			<image style="overflow:visible;opacity:0.1;" width="1246" height="1246" xlink:href="B8239402.png"  transform="matrix(1 0 0 1 337 387)">
+		</image>
+		<g>
+			<g>
+				<radialGradient id="SVGID_1_" cx="965" cy="1565" r="1194.6367" gradientUnits="userSpaceOnUse">
+					<stop  offset="0" style="stop-color:#136BAE"/>
+					<stop  offset="1" style="stop-color:#009FBD"/>
+				</radialGradient>
+				<path class="st3" d="M1074,1553H846c-263.4,0-479-215.5-479-479V477c0-60.5,49.5-110,110-110h966c60.5,0,110,49.5,110,110v597
+					C1553,1337.5,1337.5,1553,1074,1553z"/>
+			</g>
+		</g>
+	</g>
+	<g id="Logo">
+		<radialGradient id="Exterior_1_" cx="965" cy="1565" r="1194.6367" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#136BAE"/>
+			<stop  offset="1" style="stop-color:#009FBD"/>
+		</radialGradient>
+		<path id="Exterior" class="st4" d="M1074,1553H846c-263.4,0-479-215.5-479-479V477c0-60.5,49.5-110,110-110h966
+			c60.5,0,110,49.5,110,110v597C1553,1337.5,1337.5,1553,1074,1553z"/>
+		<path id="Interior" class="st2" d="M1030.4,1326H889.6C727,1326,594,1193,594,1030.4V661.9c0-37.3,30.6-67.9,67.9-67.9l596.2,0
+			c37.3,0,67.9,30.6,67.9,67.9l0,368.5C1326,1193,1193,1326,1030.4,1326z"/>
+	</g>
+</g>
+<g id="Horizontal">
+</g>
+</svg>
