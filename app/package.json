@@ -2,7 +2,7 @@
   "name": "fi-pocket",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://RASdevelopment.github.io/Fi-Pocket",
+  "homepage": "https://rasdevelopment.github.io/Fi-Pocket/",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
     "@testing-library/jest-dom": "^5.17.0",
