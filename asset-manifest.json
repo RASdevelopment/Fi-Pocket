@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.89c6493c.css",
-    "main.js": "/static/js/main.53e2bea7.js",
-    "static/media/Mapa.svg": "/static/media/Mapa.64ac0c8fb613a81b573d565233b5d55c.svg",
-    "service-worker.js": "/service-worker.js",
-    "static/media/icomoon.svg?xcgrxv": "/static/media/icomoon.149a89152258fd06ed76.svg",
-    "static/media/ILL1-NoNet.svg": "/static/media/ILL1-NoNet.60d79f6cb9dfb571072cbb64ec625de2.svg",
-    "static/media/icomoon.eot?xcgrxv": "/static/media/icomoon.ddd619d20930020cb427.eot",
-    "static/media/icomoon.woff?xcgrxv": "/static/media/icomoon.9c5a9e29a3bfef077916.woff",
-    "static/media/icomoon.ttf?xcgrxv": "/static/media/icomoon.ebb6ccf5e6967d888902.ttf",
-    "static/media/LogoHorizontal.svg": "/static/media/LogoHorizontal.286574a1f6471d65b97f5e9a39d570a8.svg",
-    "index.html": "/index.html",
-    "main.89c6493c.css.map": "/static/css/main.89c6493c.css.map",
-    "main.53e2bea7.js.map": "/static/js/main.53e2bea7.js.map"
+    "main.css": "/Fi-Pocket/static/css/main.0592c12d.css",
+    "main.js": "/Fi-Pocket/static/js/main.784eedc9.js",
+    "static/media/Mapa.svg": "/Fi-Pocket/static/media/Mapa.64ac0c8fb613a81b573d565233b5d55c.svg",
+    "service-worker.js": "/Fi-Pocket/service-worker.js",
+    "static/media/icomoon.svg?xcgrxv": "/Fi-Pocket/static/media/icomoon.149a89152258fd06ed76.svg",
+    "static/media/ILL1-NoNet.svg": "/Fi-Pocket/static/media/ILL1-NoNet.60d79f6cb9dfb571072cbb64ec625de2.svg",
+    "static/media/icomoon.eot?xcgrxv": "/Fi-Pocket/static/media/icomoon.ddd619d20930020cb427.eot",
+    "static/media/icomoon.woff?xcgrxv": "/Fi-Pocket/static/media/icomoon.9c5a9e29a3bfef077916.woff",
+    "static/media/icomoon.ttf?xcgrxv": "/Fi-Pocket/static/media/icomoon.ebb6ccf5e6967d888902.ttf",
+    "static/media/LogoHorizontal.svg": "/Fi-Pocket/static/media/LogoHorizontal.286574a1f6471d65b97f5e9a39d570a8.svg",
+    "index.html": "/Fi-Pocket/index.html",
+    "main.0592c12d.css.map": "/Fi-Pocket/static/css/main.0592c12d.css.map",
+    "main.784eedc9.js.map": "/Fi-Pocket/static/js/main.784eedc9.js.map"
   },
   "entrypoints": [
-    "static/css/main.89c6493c.css",
-    "static/js/main.53e2bea7.js"
+    "static/css/main.0592c12d.css",
+    "static/js/main.784eedc9.js"
   ]
 }
