@@ -18,7 +18,7 @@ import Uno from "./components/Docs/Archivos/Uno"; */
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "index",
     element: <Home />,
     children: [
       {
