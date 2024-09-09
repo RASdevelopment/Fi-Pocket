@@ -1,7 +1,8 @@
 import React from "react";
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import News from "./pages/News";
 import Map from "./pages/Map";
@@ -16,7 +17,8 @@ import Tres from "./components/Docs/Archivos/Tres";
 import Dos from "./components/Docs/Archivos/Dos";
 import Uno from "./components/Docs/Archivos/Uno"; */
 
-const router = createBrowserRouter([
+// const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
