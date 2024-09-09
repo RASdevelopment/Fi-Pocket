@@ -18,7 +18,7 @@ import Uno from "./components/Docs/Archivos/Uno"; */
 
 const router = createBrowserRouter([
   {
-    path: "index",
+    path: "/",
     element: <Home />,
     children: [
       {
@@ -26,15 +26,15 @@ const router = createBrowserRouter([
         element: <News />,
       },
       {
-        path: "/map",
+        path: "map",
         element: <Map />,
       },
       {
-        path: "/directory",
+        path: "directory",
         element: <Directory />,
       },
       {
-        path: "/archive",
+        path: "archive",
         element: <Archive />,
         /*children: [
           {
@@ -62,7 +62,7 @@ const router = createBrowserRouter([
         ],*/
       },
       {
-        path: "/SICEI",
+        path: "SICEI",
         element: <SICEI />,
       },
     ],
