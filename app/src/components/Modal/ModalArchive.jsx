@@ -2,7 +2,7 @@ import React from "react";
 
 function ModalArchive({ CerrarModal, ElementList, isClosing }) {
   return (
-      <div className={`MainModal ${isClosing ? 'modal-exit' : 'modal-enter'}`}>
+      <div className={`MainModal ArchiveModal ${isClosing ? 'modal-exit' : 'modal-enter'}`}>
         <div className="ModalHeader">
             <h1>{ElementList.titulo}</h1>
             <button onClick={CerrarModal}><span className="icon-xmark"></span></button>

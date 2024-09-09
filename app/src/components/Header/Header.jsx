@@ -8,6 +8,7 @@ class Header extends Component {
             <header>
                 <img src={imgLogoHor} alt="Logo de FI Pocket"/>
                 {/* <b class="UI-Icon1">O</b> */}
+                <span style={{color:'gray', fontSize:'small'}}>V 2.5</span>
             </header>
         )
     };

@@ -1,14 +1,14 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { ReactComponent as MapaSVG} from '../../img/Mapa.svg';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 
 const ZoomableImage = () => {
   return (
     <TransformWrapper
-      initialPositionX={62}
+      initialPositionX={123.5}
     >
       <TransformComponent>
-        <div id='MapBoxa'>
+        <div id='BuildingBoxa'>
           <MapaSVG/>
         </div>
       </TransformComponent>
